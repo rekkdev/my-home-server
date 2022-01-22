@@ -1,29 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="app.css">    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet"> 
-    <title>Pislify Main Server</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-</head>
-<body>
-    <div>
-        <h1>Enter your name and password to register</h1>  
-    </div>
-    <form action="/register" method="post">
-        <input name="name" type="text" id="name" placeholder="Name">
-        <input name="password" type="text" type="password" id="password" placeholder="Password">
-        <button type="submit">Register</button>
-    </form>
-    <br/>
-    <div>
-        <h2> Login instead</h2>
-        <button onClick="location.href = '/login'">Login</button>  
-    </div>
-</body>
-</html>
+<h1>Register</h1>
+<form action="/register" method="POST">
+  <div>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  <div>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required>
+  </div>
+  <button type="submit">Register</button>
+</form>
+<a href="/login">Login</a>
