@@ -1,3 +1,40 @@
+/* CSS HEX
+--lemon-meringue: #f4e8c1ff;
+--opal : #a0c1b9ff;
+--pewter-blue: #70a0afff;
+--dark-blue-gray: #706993ff;
+--dark-purple : #331e38ff;
+*/
 body{
-    
+    background-color: #331E38;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+
+div{
+    margin: 5px;
+}
+
+input{
+    background-color: #f4e8c1ff;
+    color : #331E38;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+button{
+    background-color: #70a0afff;
+    color : #331E38;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+h1{
+    color:#f4e8c1ff;
+}h2{
+    color:#f4e8c1ff;
 }
